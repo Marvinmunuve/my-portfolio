@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap");
+
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+
+
+
+
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+
+
+
+
+}
+
+p {font-size: 12px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: Light 300;
+    overflow-wrap: normal;
+    ;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: Bold 700;
+
+
+}
+
+.about {
+font-size: 19px;
+font-weight: 400;
+font-family: 'Lexend Deca', sans-serif;
+text-decoration:underline;
+color: #FF7E00;
+}
+
+body {
+    color:azure;
+    background-image: url("./images/pexels-chevanon-photography-325044.jpg") ;
+    background-size: cover;
+    
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socials h1 {
+    align-items: center;
+    justify-content: center;
+}
+ .socials ul  {
+       list-style: none;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-size: 30px;
+ 
+   
+}
+.socials ul :hover {
+    color: whitesmoke;
+}
+
+    .socials ul li {
+        color: black;
+        margin:15px;
+      
+    }
+   
+
+  }
+
+.box-1 {
+
+
+
+}
+.box-2 {
+
+}
