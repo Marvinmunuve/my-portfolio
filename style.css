@@ -158,12 +158,6 @@ body {
         height: 100vh;
     }
 
-    
- .wrapper { 
-    
-} 
-
-
     .contacts .wrapper {
         display: flex;
         flex-direction: column;
