@@ -13,119 +13,184 @@ font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
 
-.max-width { 
-    max-width: 1300px;
-    padding:0 80px;
-    margin-top: auto;
-} 
 
-
-.navbar {
-    position: fixed;
-    width: 100%;
-    padding: 1px 0px;
-    background: crimson;
-    font-family: 'Lexend Deca', sans-serif; ;
-}
-
-.navbar .max-width {
+.container {
+    /* background-image: url("./images/aedrian-bMkRxaVMvj4-unsplash.jpg"); */
+    /* background-size: cover; */
+    height: 100vh;
     display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between; 
+    width: auto;
+    position: fixed;
 }
 
-.navbar .logo a {
-    color: #fff;  
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: none;
+.logo .socials  {
+    list-style: none;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 15px;
+    
+    
 }
-.navbar .logo  a span {
-    color:#000000;
+.logo .socials li{
+    margin: 5px;
 }
 
+    .logo .socials li  a {
+        color: white;
+    }
+    .logo .socials :hover {
+        color:darkslategray;
+
+    }
+
+.container .navbar .menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
 
 .navbar .menu li {
     list-style-type: none;
-    display: inline-block;
-    
+    margin:5px
+
+}
+ .navbar .menu li a {
+    color:#fff;
+    text-decoration: none; 
 }
 
-
-.navbar .menu li a {
-    color :#fff;
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 25px;
-    text-decoration: none;
-}
 .navbar .menu li a:hover {
-    color: #000000;
-
+ color:darkslategray;
 }
 
 
-p { font-size: 12px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: Light 300;
-    overflow-wrap: normal;
+.box-1{
+    margin: 15px 40PX 0px 40px; 
+   padding: 0 40px;
 }
 
-h1 {
-    margin :90px;
+.box-1 h1 {
+    
     font-size: 30px;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: Bold 700;
-    color:#c8b8e8eb;
-    margin-bottom: 20px;
-}
+    color:whitesmoke;
+  
 
-.about {
-    font-size: 19px;
+
+}
+.box-1 h1 span{ 
+    color:rgb(239, 244, 153);
+    font-size: larger;
+    font-style:normal;
+}
+p {
+    color: white;
+    font-size:medium;  
     font-weight: 400;
     font-family: 'Lexend Deca', sans-serif;
-    text-decoration:underline;
-    color: #FF7E00;
+    text-align: center;
 }
+
 
 body {
-    color:azure;
-    background-image: url("./images/pexels-chevanon-photography-325044.jpg") ;
-    background-size: cover;
+    color:whitesmoke;
+    background-color:black;
 }
 
-.container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.socials h1 {
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.socials ul  {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
+.box-2 {
     
+    background-color: rgba(77, 48, 37, 0.5);
+    height: 15rem;
+    width: fit-content;
+    margin: 2rem;
+    padding: 0 70px;
+  }
+    
+
+
+.box-2 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: crimson;
+    font-size: 20px;
+    font-weight: Bold 400;
+    font-family: 'Inter', sans-serif;
+ }   
+
+
+
+
+.box-2 h1 {
+    align-items:flex-end;
+    justify-content: center;
+    color: whitesmoke;
 }
 
-    .socials ul li {
-    color: black;
-    margin:15px;
+
+    }
+    .footer {
+    font-size: 11px;
+        text-align: center;
+    
+
+
+        
+    }
+    
+    
+    /* STYLING OF CONTACT PAGE */
+    body {
+        text-align: center;
+    background-color: #000000;
+    }
+    .contacts {
+        background-image: url("./images/aedrian-bMkRxaVMvj4-unsplash.jpg");
+        background-size: cover;
+        /* background-color: rgba(77, 156, 160, 0.5); */
+        color: lightyellow;
+        height: 100vh;
     }
 
-    .socials ul li  a {
-        color: white;
+    
+ .wrapper { 
+    
+} 
+
+
+    .contacts .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
     }
-    .socials ul :hover {
-        color:blue;
+    .contacts .wrapper h1 {
+        color:lightyellow;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .footer {
+    
+    
+    }
+
+    @media only screen and (max-width: 1440px){
+
+.max-width .menu {
+    width: 100%;
+    background-color: linear-gradient(#ff54a2, #ff575a);
+    position: absolute;
+}
+.max-width .menu li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
     }
