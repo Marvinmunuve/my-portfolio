@@ -12,17 +12,19 @@ font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
 }
-
+body{
+    background-image: url("./images/aedrian-bMkRxaVMvj4-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding:0px;
+    margin:0px;}
+  
 
 .container {
-    /* background-image: url("./images/aedrian-bMkRxaVMvj4-unsplash.jpg"); */
-    /* background-size: cover; */
-    height: 100vh;
     display:flex;
     flex-direction: column;
     align-items: center;
-    width: auto;
-    position: fixed;
+    width: auto; 
 }
 
 .logo .socials  {
@@ -31,8 +33,6 @@ font-family: 'Open Sans', sans-serif;
     align-items:center;
     justify-content:center;
     font-size: 15px;
-    
-    
 }
 .logo .socials li{
     margin: 5px;
@@ -50,13 +50,11 @@ font-family: 'Open Sans', sans-serif;
     display:flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .navbar .menu li {
     list-style-type: none;
     margin:5px
-
 }
  .navbar .menu li a {
     color:#fff;
@@ -109,7 +107,7 @@ body {
     height: 15rem;
     width: fit-content;
     margin: 2rem;
-    padding: 0 70px;
+    padding: 0 40px;
   }
     
 
@@ -132,30 +130,27 @@ body {
     justify-content: center;
     color: whitesmoke;
 }
-
-
-    }
-    .footer {
-    font-size: 11px;
-        text-align: center;
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px ;
+    color: #fff;
     
 
-
-        
-    }
+}
+ 
     
     
     /* STYLING OF CONTACT PAGE */
     body {
         text-align: center;
     background-color: #000000;
+    
     }
     .contacts {
         background-image: url("./images/aedrian-bMkRxaVMvj4-unsplash.jpg");
         background-size: cover;
-        /* background-color: rgba(77, 156, 160, 0.5); */
-        color: lightyellow;
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .contacts .wrapper {
@@ -164,27 +159,42 @@ body {
         align-items: center; 
         justify-content: center; 
     }
-    .contacts .wrapper h1 {
-        color:lightyellow;
-        display: flex;
-        align-items:center;
-        justify-content: center;
+
+    /* /back to home page buttton */
+    .back {
+       text-decoration:#fff;
+       color: #fff;
+       padding-top: 0%;
     }
-    .footer {
-    
-    
+ /* portfolio page */
+.port-1{
+background-image: none;
+background-color: rgba(77, 48, 37, 0.5);
+height: 15rem;
+width: fit-content;
+margin: 2rem;
+padding: 0 40px;
+}
+
+}
+    @media only screen and (max-width: 759px){
+        body {
+            background-image: url("./images/pexels-adrien-olichon-2387793\ \(1\).jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+             background-attachment:fixed ;
+            overflow-y: scroll;
+
+        }
+        .container {
+       
+            
+        }
+
+       
+         
     }
 
-    @media only screen and (max-width: 1440px){
-
-.max-width .menu {
-    width: 100%;
-    background-color: linear-gradient(#ff54a2, #ff575a);
-    position: absolute;
-}
-.max-width .menu li{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-    }
+.
