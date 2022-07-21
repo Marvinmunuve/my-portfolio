@@ -108,7 +108,7 @@ padding: 0 40px;
     justify-content: center;
 }
 .box-2 .box-2-1 li  {
-margin: 20px;}
+margin: 10px;}
 .box-2 .box-2-1 li  a {
     font-size: 30px;
     color: #fff;
@@ -167,6 +167,9 @@ padding: 0 40px;}
 
 
  /* SHOP PAGE */
+ .shop-box img{
+    width: 100px;
+ }
  .shop-box  {
     height: 100vh;
     width: 100%;
@@ -174,11 +177,10 @@ padding: 0 40px;}
     margin-top: 20%;
     
    }
-
     .shopper-1  {
     font-family: 'Cormorant SC', serif;
     font-weight: 300;
-    font-size: xxx-large;
+    font-size: xx-large;
     
    }
    .shopper-2  {
@@ -198,5 +200,10 @@ padding: 0 40px;}
             background-attachment:fixed ;
             overflow-y: scroll;
         }
+        .box-2 {
+            background-color: brown;
+            width: fit-content;
+            margin: 15px 50px 0px 50px; 
+            padding: 0 50px;
     }
 .
