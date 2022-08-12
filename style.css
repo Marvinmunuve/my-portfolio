@@ -12,21 +12,18 @@ font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
 }
-body {
-    color:whitesmoke;
-    background-color:black;
+ body {
     background-image: url("./images/aedrian-bMkRxaVMvj4-unsplash.jpg");
     background-size: cover;
-    height: 100vh;
-    padding:0px;
-    margin:0px;
 }
 
-.container {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: auto; 
+.container {max-width: 500px;
+    width: 80%; 
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 20px;
+ padding-left: 20px;
+  
 }
 
 .logo .socials  {
@@ -47,7 +44,7 @@ body {
         color:darkslategray;
     }
 
-.container .navbar .menu {
+ .navbar .menu {
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -121,11 +118,6 @@ margin: 10px;}
     justify-content: center;
     color: whitesmoke;
 }
-footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px ;
-    color: #fff;}
 
     
     
@@ -163,30 +155,6 @@ color: dimgray;
 .port-1  {
 color: gray;
 padding: 0 40px;} 
-
-
-
- /* SHOP PAGE */
- .shop-box img{
-    width: 100px;
- }
- .shop-box  {
-    height: 100vh;
-    width: 100%;
-    color:#fff;
-    margin-top: 20%;
-    
-   }
-    .shopper-1  {
-    font-family: 'Cormorant SC', serif;
-    font-weight: 300;
-    font-size: xx-large;
-    
-   }
-   .shopper-2  {
-    font-family: 'Cormorant SC', serif;
-    font-weight: 300;
-    font-size: xx-large;
 
    }
 
