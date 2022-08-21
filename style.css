@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
 font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif;
+
 font-family: 'Open Sans', sans-serif;
 
 
@@ -11,20 +11,39 @@ font-family: 'Open Sans', sans-serif;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-}
- body {
-    background-image: url("./images/aedrian-bMkRxaVMvj4-unsplash.jpg");
-    background-size: cover;
+} 
+
+
+body {
+    background-color: #fff;
+    color: #fff;
 }
 
-.container {max-width: 500px;
-    width: 80%; 
- margin-left: auto;
- margin-right: auto;
- padding-right: 20px;
- padding-left: 20px;
-  
+.container {
+height: 100vh;
+width: auto; 
+margin-left: auto;
+margin-right: auto;
+padding-right: 20px;
+padding-left: 20px;
 }
+
+
+h1, h2, p {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+h1 {
+    font-size:  30px; ;
+}
+
+p {
+color: gray;
+font-size: 15px;
+}
+
+
+
 
 .logo .socials  {
     list-style: none;
@@ -33,145 +52,69 @@ font-family: 'Open Sans', sans-serif;
     justify-content:center;
     font-size: 15px;
 }
-.logo .socials li{
+.logo .socials li {
     margin: 5px;
 }
 
 .logo .socials li  a {
-    color: white;
+    color:white;
     }
     .logo .socials :hover {
         color:darkslategray;
     }
 
- .navbar .menu {
+  .menu {
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
-
-.navbar .menu li {
-    list-style-type: none;
+.menu .liam {
     margin:5px
 }
- .navbar .menu li a {
+.menu .liam a {
     color:#fff;
     text-decoration: none; 
 }
 
-.navbar .menu li a:hover {
- color:darkslategray;
+.menu .liam a:hover {
+color:brown;
 }
 
+
+header {
+    background-image: url("./images/pexels-nikhil-pawar-13260076\ \(1\).jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}
 
 .box-1{
-    margin: 15px 40PX 0px 40px; 
-   padding: 0 40px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+ .box-1 .head {
+    color:#fff;
+ }
+
+
+
+main .box-2 {
+width: auto;
+height:100vh;
+margin-left: auto; 
+margin-right: auto;
+margin-top: 40px;
+padding: 50px;
 }
 
-.box-1 h1 {
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: Bold 700;
-    color:whitesmoke;
 
-}
-.box-1 h1 span{ 
-    color:rgb(239, 244, 153);
-    font-size: larger;
-    font-style:normal;
-}
-p {
-    color: white;
-    font-size:medium;  
-    font-weight: 400;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-}
-.box-2 {
-background-color: brown;
-width: fit-content;
-margin: 15px 50px 0px 50px; 
-padding: 0 40px;
-}
-    .box-2 .h1 {
-}
 
-.box-2 .box-2-1 {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.box-2 .box-2-1 li  {
-margin: 10px;}
-.box-2 .box-2-1 li  a {
-    font-size: 30px;
-    color: #fff;
-}
-.box-2 .box-2-1 li  a:hover{
-    color: darkslategray;}
-
-.box-2 h1 {
-    align-items:flex-end;
-    justify-content: center;
-    color: whitesmoke;
-}
-
-    
-    
-    /* STYLING OF CONTACT PAGE */
-    body {
-    text-align: center;
-    background-color: #000000;
-    
-    }
-    .contacts {
-        background-image: url("./images/aedrian-bMkRxaVMvj4-unsplash.jpg");
-        background-size: cover;
-        min-height: 100vh;
-    }
-
-    .contacts .wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-        justify-content: center; 
-    }
-
-    /* /back to home page button */
-    .back {
-    text-decoration:#fff;
-    color: #fff;
-    padding-top: 0%;
-    }
-
- /* portfolio page */
-.port h2 {
-color: dimgray;
-
-}
-.port-1  {
-color: gray;
-padding: 0 40px;} 
-
-   }
-
-    @media only screen and (max-width: 759px){
+    @media only screen and (max-width: 759px) {
         body {
-            background-image: url("./images/pexels-adrien-olichon-2387793\ \(1\).jpg");
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            min-height: 100vh;
-            background-attachment:fixed ;
-            overflow-y: scroll;
+            /* background-image: url("./images/pexels-adrien-olichon-2387793\ \(1\).jpg"); */
+            /* background-size: cover; */
         }
-        .box-2 {
-            background-color: brown;
-            width: fit-content;
-            margin: 15px 50px 0px 50px; 
-            padding: 0 50px;
-    }
-.
+}
