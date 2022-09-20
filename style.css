@@ -120,9 +120,24 @@ footer .logo .socials  {
 
 
 
-    @media only screen and (max-width: 759px) {
+    @media only screen and (min-width: 759px) {
         body {
-            /* background-image: url("./images/pexels-adrien-olichon-2387793\ \(1\).jpg"); */
-            /* background-size: cover; */
-        }
+            background-color: black;
+            
+}
+h1, h2{
+    color: brown;
+}
+
+header {
+    background-image: url("./images/pexels-nikhil-pawar-13260076\ \(1\).jpg");
+      background-size:cover ; 
+    background-repeat: no-repeat;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+footer .logo .socials li  a {
+    color:burlywood;
+
 }
