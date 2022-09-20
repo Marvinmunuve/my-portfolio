@@ -24,14 +24,15 @@ height: 100vh;
 width: auto; 
 margin-left: auto;
 margin-right: auto;
-padding-right: 20px;
-padding-left: 20px;
+/* padding-right: 20px; */
+/* padding-left: 20px; */
 }
 
 
 h1, h2, p {
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
+    color: blue;
 }
 h1 {
     font-size:  30px; ;
@@ -42,26 +43,6 @@ color: gray;
 font-size: 15px;
 }
 
-
-
-
-.logo .socials  {
-    list-style: none;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    font-size: 15px;
-}
-.logo .socials li {
-    margin: 5px;
-}
-
-.logo .socials li  a {
-    color:white;
-    }
-    .logo .socials :hover {
-        color:darkslategray;
-    }
 
   .menu {
     display:flex;
@@ -86,7 +67,7 @@ header {
     background-size: cover ;
     background-repeat: no-repeat;
     height: 100vh;
-   
+    width: 100%;
 }
 
 .box-1{
@@ -95,20 +76,47 @@ header {
     margin-right: auto;
     margin-top: 80px;
 }
- .box-1 .head {
+.box-1 .head {
     color:#fff;
- }
-
-
+}
 
 main .box-2 {
 width: auto;
-height:100vh;
+height: 50vh;
 margin-left: auto; 
 margin-right: auto;
+margin-bottom: 0px;
 margin-top: 40px;
 padding: 50px;
 }
+
+.box-3  {
+    height: 50vh;
+
+
+}
+
+
+/* styling for the footer */
+footer .logo .socials  {
+    list-style: none;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 15px;
+}
+.logo .socials li {
+    margin: 5px;
+}
+
+
+.logo .socials li  a {
+    color:black;
+    }
+    .logo .socials :hover {
+        color:darkslategray;
+    }
+
 
 
 
